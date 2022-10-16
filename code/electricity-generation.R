@@ -2,6 +2,7 @@
 library(tidyverse)
 library(janitor)
 library(scales)
+library(NatParksPalettes)
 
 # Load data
 electricity_generation <- read_csv("data/electricity-generation.csv")
@@ -26,6 +27,7 @@ electricity_generation %>%
   scale_y_continuous(expand = c(0.01, 0),
                      labels = label_number(suffix = " GWh",
                                            big.mark = ",")) +
+  scale_colour_manual(values = natparks.pals("Yellowstone")) +
   theme_bw() +
   theme(legend.position = c(0.2, 0.85)) +
   labs(x = "", y = "",

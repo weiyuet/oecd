@@ -24,7 +24,7 @@ crude_oil_production_annual %>%
   scale_y_log10(labels = label_number(suffix = " toe", big.mark = ","),
                 limits = c(1000, 1000000),
                 expand = c(0, 0)) +
-  theme_classic() +
+  theme_bw() +
   theme(legend.position = c(0.9, 0.35), 
         legend.title = element_blank(),
         axis.text.y = element_text(angle = 90)) +
