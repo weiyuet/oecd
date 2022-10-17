@@ -29,7 +29,8 @@ electricity_generation %>%
                                            big.mark = ",")) +
   scale_colour_manual(values = natparks.pals("Yellowstone")) +
   theme_bw() +
-  theme(legend.position = c(0.2, 0.85)) +
+  theme(legend.position = c(0.2, 0.9),
+        legend.background = element_blank()) +
   labs(x = "", y = "",
        colour = "",
        title = "Electricity Generation in Japan",
