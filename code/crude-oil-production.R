@@ -28,7 +28,7 @@ crude_oil_production_annual %>%
   theme(legend.position = c(0.5, 0.1), 
         legend.background = element_blank(),
         axis.text.y = element_text(angle = 90)) +
-  guides(colour = guide_legend(title = "", nrow = 1))
+  guides(colour = guide_legend(nrow = 1)) +
   labs(x = "", y = "",
        colour = "",
        title = "Crude Oil Production (Total Annual)",
