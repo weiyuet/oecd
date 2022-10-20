@@ -2,7 +2,7 @@
 library(tidyverse)
 library(janitor)
 library(scales)
-library(ggsci)
+library(paletteer)
 
 # Load data
 primary_energy_supply <- read_csv("data/primary-energy-supply.csv")
@@ -20,5 +20,14 @@ primary_energy_supply %>%
   filter(measure == "MLN_TOE") %>% 
   ggplot(aes(x = time, y = value, colour = location)) +
   geom_step() +
+  scale_x_continuous(breaks = seq(1960, 2025, 5)) +
   scale_y_log10(labels = label_number(big.mark = ",")) +
-  scale_colour_jco()
+  scale_colour_paletteer_d("dutchmasters::milkmaid") +
+  theme_bw() +
+  labs(x = "", y = "million toe (log scale)",
+       colour = "",
+       title = "Primary Energy Supply",
+       caption = "Data: OECD (2022), Primary energy supply (indicator). doi: 10.1787/1b33c15a-en | Graphic: @weiyuet")
+
+# Save image
+ggsave("figures/primary-energy-supply.png", width = 7, height = 7)
