@@ -28,7 +28,8 @@ electricity_generation %>%
                      labels = label_number(suffix = " GWh",
                                            big.mark = ",")) +
   scale_colour_paletteer_d("dutchmasters::milkmaid",
-                           labels = c("Nuclear", "Total")) +
+                           labels = c("Nuclear", "Total"),
+                           guide = guide_legend(reverse = TRUE)) +
   theme_bw() +
   theme(legend.position = c(0.25, 0.9),
         legend.background = element_blank()) +
