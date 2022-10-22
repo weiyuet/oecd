@@ -2,7 +2,7 @@
 library(tidyverse)
 library(janitor)
 library(scales)
-library(NatParksPalettes)
+library(paletteer)
 
 # Load data
 electricity_generation <- read_csv("data/electricity-generation.csv")
@@ -27,15 +27,16 @@ electricity_generation %>%
   scale_y_continuous(expand = c(0.01, 0),
                      labels = label_number(suffix = " GWh",
                                            big.mark = ",")) +
-  scale_colour_manual(values = natparks.pals("Yellowstone")) +
+  scale_colour_paletteer_d("dutchmasters::milkmaid",
+                           labels = c("Nuclear", "Total")) +
   theme_bw() +
-  theme(legend.position = c(0.2, 0.9),
+  theme(legend.position = c(0.25, 0.9),
         legend.background = element_blank()) +
   labs(x = "", y = "",
        colour = "",
        title = "Electricity Generation in Japan",
        subtitle = "Nuclear power generation practically stopped after the 2011 earthquake",
-       caption = "Data: OECD (2022), Electricity generation (indicator). doi: 10.1787/c6e6caa2-en")
+       caption = "Data: OECD (2022), Electricity generation (indicator). doi: 10.1787/c6e6caa2-en | Graphic: @weiyuet")
 
 # Save image
 ggsave("figures/electricity-generation-japan.png", width = 7, height = 5)
