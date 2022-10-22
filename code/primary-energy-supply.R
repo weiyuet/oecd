@@ -24,9 +24,10 @@ primary_energy_supply %>%
   scale_y_log10(labels = label_number(big.mark = ",")) +
   scale_colour_paletteer_d("dutchmasters::milkmaid") +
   theme_bw() +
-  labs(x = "", y = "million toe (log scale)",
+  labs(x = "", y = "",
        colour = "",
        title = "Primary Energy Supply",
+       subtitle = "million toe (y-axis log scale)",
        caption = "Data: OECD (2022), Primary energy supply (indicator). doi: 10.1787/1b33c15a-en | Graphic: @weiyuet")
 
 # Save image
