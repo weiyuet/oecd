@@ -22,10 +22,8 @@ electricity_generation %>%
   filter(measure == "GWH") %>% 
   ggplot(aes(x = time, y = value, colour = type)) +
   geom_step() +
-  scale_x_continuous(expand = c(0.01, 0),
-                     breaks = seq(1960, 2022, 5)) +
-  scale_y_continuous(expand = c(0.01, 0),
-                     labels = label_number(suffix = " GWh",
+  scale_x_continuous(breaks = seq(1960, 2022, 5)) +
+  scale_y_continuous(labels = label_number(suffix = " GWh",
                                            big.mark = ",")) +
   scale_colour_paletteer_d("dutchmasters::milkmaid",
                            labels = c("Nuclear", "Total"),

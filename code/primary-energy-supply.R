@@ -22,7 +22,7 @@ primary_energy_supply %>%
   geom_step() +
   scale_x_continuous(breaks = seq(1960, 2025, 5)) +
   scale_y_log10(labels = label_number(big.mark = ",")) +
-  scale_colour_paletteer_d("dutchmasters::milkmaid") +
+  scale_colour_paletteer_d("ggsci::default_jco") +
   theme_bw() +
   labs(x = "", y = "",
        colour = "",
