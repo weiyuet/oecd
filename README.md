@@ -4,7 +4,7 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2022-10-20
+Updated: 2022-10-24
 
 ### Electricity Generation
 ![](https://github.com/weiyuet/oecd/blob/main/figures/electricity-generation-japan.png)
@@ -20,5 +20,10 @@ Crude oil production is defined as the quantities of oil extracted from the grou
 ![](https://github.com/weiyuet/oecd/blob/main/figures/primary-energy-supply.png)
 
 Primary energy supply is defined as energy production plus energy imports, minus energy exports, minus international bunkers, then plus or minus stock changes. The International Energy Agency (IEA) energy balance methodology is based on the calorific content of the energy commodities and a common unit of account: tonne of oil equivalent (toe). Toe is defined as 107 kilocalories (41.868 gigajoules). This quantity of energy is, within a few per cent, equal to the net heat content of one tonne of crude oil. [`OECD`](https://data.oecd.org/energy/primary-energy-supply.htm)
+
+### Renewable Energy
+![](https://github.com/weiyuet/oecd/blob/main/figures/renewable-energy.png)
+
+Renewable energy is defined as the contribution of renewables to total primary energy supply (TPES). Renewables include the primary energy equivalent of hydro (excluding pumped storage), geothermal, solar, wind, tide and wave sources. Energy derived from solid biofuels, biogasoline, biodiesels, other liquid biofuels, biogases and the renewable fraction of municipal waste are also included. [`OECD`](https://data.oecd.org/energy/renewable-energy.htm)
 
 EOL
