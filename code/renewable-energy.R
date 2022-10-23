@@ -21,7 +21,7 @@ renewable_energy %>%
   ggplot(aes(x = time, y = value, colour = location)) +
   geom_step() +
   scale_x_continuous(breaks = seq(1960, 2020, 5)) +
-  scale_y_log10(labels = label_number(big.mark = ",")) +
+  scale_y_log10(labels = label_number(big.mark = "")) +
   scale_colour_paletteer_d("ggsci::default_jco") +
   theme_bw() +
   labs(x = "", y = "",
