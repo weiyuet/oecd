@@ -4,7 +4,7 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2022-10-29
+Updated: 2022-11-09
 
 ### Electricity Generation
 ![](https://github.com/weiyuet/oecd/blob/main/figures/electricity-generation-japan.png)
@@ -26,5 +26,8 @@ Primary energy supply is defined as energy production plus energy imports, minus
 ![](https://github.com/weiyuet/oecd/blob/main/figures/percentage-renewable-energy.png)
 
 Renewable energy is defined as the contribution of renewables to total primary energy supply (TPES). Renewables include the primary energy equivalent of hydro (excluding pumped storage), geothermal, solar, wind, tide and wave sources. Energy derived from solid biofuels, biogasoline, biodiesels, other liquid biofuels, biogases and the renewable fraction of municipal waste are also included. [`OECD`](https://data.oecd.org/energy/renewable-energy.htm)
+
+### Nuclear Power Plants
+![](https://github.com/weiyuet/oecd/blob/main/figures/nuclear-power-plants.png)
 
 EOL
