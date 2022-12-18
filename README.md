@@ -4,7 +4,7 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2022-11-09
+Updated: 2022-12-18
 
 ### Electricity Generation
 ![](https://github.com/weiyuet/oecd/blob/main/figures/electricity-generation-japan.png)
@@ -29,5 +29,10 @@ Renewable energy is defined as the contribution of renewables to total primary e
 
 ### Nuclear Power Plants
 ![](https://github.com/weiyuet/oecd/blob/main/figures/nuclear-power-plants.png)
+
+### Meat Consumption
+![](https://github.com/weiyuet/oecd/blob/main/figures/meat-consumption.png)
+
+Meat consumption is related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP. Compared to other commodities, meat is characterised by high production costs and high output prices. Meat demand is associated with higher incomes and a shift - due to urbanisation - to food consumption changes that favour increased proteins from animal sources in diets. While the global meat industry provides food and a livelihood for billions of people, it also has significant environmental and health consequences for the planet. [`OECD`](https://data.oecd.org/agroutput/meat-consumption.htm)
 
 EOL
