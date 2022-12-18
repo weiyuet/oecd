@@ -1,3 +1,7 @@
+#########################
+# Nuclear Power Plants  #
+#########################
+
 #### Setup ####
 library(tidyverse)
 library(janitor)
@@ -10,7 +14,7 @@ nuclear_plants <- read_csv("data/nuclear-plants.csv")
 nuclear_plants <- nuclear_plants %>% 
   clean_names()
 
-#### Visualize ####
+#### Plot number of nuclear power plants ####
 nuclear_plants %>% 
   filter(location != "OECD" & location != "OECDE") %>% 
   mutate(location = fct_reorder(location, value)) %>% 

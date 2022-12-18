@@ -1,22 +1,25 @@
-# Setup
+##########################
+# Electricity Generation #
+##########################
+
+#### Setup ####
 library(tidyverse)
 library(janitor)
 library(scales)
 library(paletteer)
 
-# Load data
+#### Load data ####
 electricity_generation <- read_csv("data/electricity-generation.csv")
 
-# Wrangle
-# Column names to lower case
+#### Column names to lower case ####
 electricity_generation <- electricity_generation %>% 
   clean_names()
 
-# Change column name
+#### Change column name ####
 electricity_generation <- electricity_generation %>% 
   rename(type = "subject")
 
-# Visualize
+#### Visualize ####
 electricity_generation %>% 
   filter(location == "JPN") %>% 
   filter(measure == "GWH") %>% 
@@ -37,5 +40,5 @@ electricity_generation %>%
        subtitle = "Nuclear power generation practically stopped after the 2011 earthquake",
        caption = "Data: OECD (2022), Electricity generation (indicator). doi: 10.1787/c6e6caa2-en | Graphic: @weiyuet")
 
-# Save image
+#### Save image ####
 ggsave("figures/electricity-generation-japan.png", width = 7, height = 5)
