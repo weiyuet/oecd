@@ -21,16 +21,20 @@ selected_countries <- c("EU28", "G20", "BRN", "CHN", "NOR", "RUS", "SAU", "USA",
 crude_oil_production_annual %>% 
   filter(location %in% selected_countries) %>%
   mutate(value = value / 1000) %>% 
-  ggplot(aes(x = time, y = value, colour = location)) +
+  ggplot(aes(x = time,
+             y = value,
+             colour = location)) +
   geom_line() +
   scale_x_continuous(breaks = seq(1960, 2020, 5),
                      limits = c(1970, 2017)) +
-  scale_y_log10(labels = label_number(big.mark = ",")) +
+  scale_y_log10(labels = label_number(big.mark = "",
+                                      accuracy = 0.1)) +
   scale_colour_paletteer_d("ggsci::default_jco") +
   theme_bw() +
   theme(legend.position = "right", 
         legend.background = element_blank()) +
-  labs(x = "", y = "",
+  labs(x = "",
+       y = "",
        colour = "",
        title = "Crude Oil Production (Total Annual)",
        subtitle = "million toe (y-axis log scale)",
