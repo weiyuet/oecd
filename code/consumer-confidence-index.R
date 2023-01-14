@@ -34,17 +34,22 @@ consumer_confidence_index %>%
              y = value)) +
   geom_point(size = 0.5) +
   geom_line() +
+  geom_hline(yintercept = 100,
+             colour = "red",
+             linetype = "dotted") +
   facet_wrap(vars(year)) +
-  scale_x_continuous(breaks = seq(1, 12, 2),
-                     labels = month.abb[seq(1, 12, 2)]) +
+  scale_x_continuous(breaks = 1:12,
+                     labels = month.abb[1:12]) +
   labs(x = "",
        y = "",
        title = "Consumer Confidence Index (CCI) in the USA",
+       subtitle = "Above 100 indicates an optimistic attitude; below 100 indicates a pessimistic attitude",
        caption = "Data: OECD (2023), Consumer confidence index (CCI) (indicator). doi: 10.1787/46434d78-en | Graphic: @weiyuet") +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5,
-                                   hjust = 1))
+                                   hjust = 1,
+                                   size = 7))
 
 #### Save image ####
-ggsave("figures/consumer-confidence-index.png", width = 7, height = 7)
+ggsave("figures/consumer-confidence-index.png", width = 8.5, height = 7)
