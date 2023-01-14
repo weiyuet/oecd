@@ -16,10 +16,10 @@ crude_oil_production_annual <- crude_oil_production_annual %>%
   clean_names()
 
 #### Plot Crude oil production ####
-selected_countries <- c("EU28", "G20", "BRN", "CHN", "NOR", "RUS", "SAU", "USA", "VEN")
+selected_locations <- c("EU28", "G20", "BRN", "CHN", "NOR", "RUS", "SAU", "USA", "VEN")
 
 crude_oil_production_annual %>% 
-  filter(location %in% selected_countries) %>%
+  filter(location %in% selected_locations) %>%
   mutate(value = value / 1000) %>% 
   ggplot(aes(x = time,
              y = value,
