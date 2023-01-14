@@ -4,7 +4,7 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2022-12-18
+Updated: 2023-01-14
 
 ### Electricity Generation
 ![](https://github.com/weiyuet/oecd/blob/main/figures/electricity-generation-japan.png)
@@ -34,5 +34,10 @@ Renewable energy is defined as the contribution of renewables to total primary e
 ![](https://github.com/weiyuet/oecd/blob/main/figures/meat-consumption.png)
 
 Meat consumption is related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP. Compared to other commodities, meat is characterised by high production costs and high output prices. Meat demand is associated with higher incomes and a shift - due to urbanisation - to food consumption changes that favour increased proteins from animal sources in diets. While the global meat industry provides food and a livelihood for billions of people, it also has significant environmental and health consequences for the planet. [`OECD`](https://data.oecd.org/agroutput/meat-consumption.htm)
+
+### Consumer Confidence Index (CCI)
+![](https://github.com/weiyuet/oecd/blob/main/figures/consumer-confidence-index.png)
+
+The consumer confidence indicator provides an indication of future developments of households’ consumption and saving, based upon answers regarding their expected financial situation, their sentiment about the general economic situation, unemployment and capability of savings. An indicator above 100 signals a boost in the consumers’ confidence towards the future economic situation, as a consequence of which they are less prone to save, and more inclined to spend money on major purchases in the next 12 months. Values below 100 indicate a pessimistic attitude towards future developments in the economy, possibly resulting in a tendency to save more and consume less. [`OECD`](https://data.oecd.org/leadind/consumer-confidence-index-cci.htm)
 
 EOL
