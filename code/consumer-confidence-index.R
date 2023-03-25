@@ -5,8 +5,6 @@
 #### Setup ####
 library(tidyverse)
 library(janitor)
-library(scales)
-library(paletteer)
 
 #### Load data ####
 consumer_confidence_index <- read_csv("data/consumer-confidence-index.csv")
@@ -36,7 +34,7 @@ consumer_confidence_index %>%
   geom_line() +
   geom_hline(yintercept = 100,
              colour = "red",
-             linetype = "dotted") +
+             linetype = "dashed") +
   facet_wrap(vars(year)) +
   scale_x_continuous(breaks = 1:12,
                      labels = month.abb[1:12]) +
