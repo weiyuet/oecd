@@ -4,7 +4,7 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2023-02-04
+Updated: 2023-03-25
 
 ### Electricity Generation
 ![](https://github.com/weiyuet/oecd/blob/main/figures/electricity-generation-japan.png)
