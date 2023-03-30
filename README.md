@@ -4,7 +4,12 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2023-03-25
+Updated: 2023-03-30
+
+### Road Accidents
+![](https://github.com/weiyuet/oecd/blob/main/figures/road-accidents.png)
+
+Road accidents are measured in terms of the number of persons injured and deaths due to road accidents, whether immediate or within 30 days of the accident, and excluding suicides involving the use of road motor vehicles. A road motor vehicle includes buses, coaches, trolleys, tramways (streetcars) and road vehicles used to transport goods and to transport passengers. Road motor vehicles are attributed to the countries where they are registered, while deaths are attributed to the countries in which they occur. [`OECD`](https://data.oecd.org/transport/road-accidents.htm)
 
 ### Electricity Generation
 ![](https://github.com/weiyuet/oecd/blob/main/figures/electricity-generation-japan.png)
