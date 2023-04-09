@@ -4,7 +4,7 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2023-03-30
+Updated: 2023-04-10
 
 ### Road Accidents
 ![](https://github.com/weiyuet/oecd/blob/main/figures/road-accidents.png)
