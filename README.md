@@ -4,12 +4,17 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2023-04-14
+Updated: 2023-05-28
 
 ### Road Accidents
 ![](https://github.com/weiyuet/oecd/blob/main/figures/road-accidents.png)
 
 Road accidents are measured in terms of the number of persons injured and deaths due to road accidents, whether immediate or within 30 days of the accident, and excluding suicides involving the use of road motor vehicles. A road motor vehicle includes buses, coaches, trolleys, tramways (streetcars) and road vehicles used to transport goods and to transport passengers. Road motor vehicles are attributed to the countries where they are registered, while deaths are attributed to the countries in which they occur. [`OECD`](https://data.oecd.org/transport/road-accidents.htm)
+
+### Healthcare Expenditures
+![](https://github.com/weiyuet/oecd/blob/main/figures/healthcare-expenditures.png)
+
+Health spending measures the final consumption of health care goods and services (i.e. current health expenditure) including personal health care (curative care, rehabilitative care, long-term care, ancillary services and medical goods) and collective services (prevention and public health services as well as health administration), but excluding spending on investments. Health care is financed through a mix of financing arrangements including government spending and compulsory health insurance (“Government/compulsory”) as well as voluntary health insurance and private funds such as households’ out-of-pocket payments, NGOs and private corporations (“Voluntary”). This indicator is presented as a total and by type of financing (“Government/compulsory”, “Voluntary”, “Out-of-pocket”) and is measured as a share of GDP, as a share of total health spending and in USD per capita (using economy-wide PPPs). [`OECD`](https://data.oecd.org/healthres/health-spending.htm)
 
 ### Electricity Generation
 ![](https://github.com/weiyuet/oecd/blob/main/figures/electricity-generation-japan.png)
