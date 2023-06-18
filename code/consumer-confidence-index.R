@@ -22,6 +22,11 @@ consumer_confidence_index <- consumer_confidence_index %>%
 consumer_confidence_index <- consumer_confidence_index %>% 
   mutate(across(6:7, as.numeric))
 
+#### Explore ####
+consumer_confidence_index %>% 
+  count(location,
+        sort = TRUE) # 49 locations
+
 #### Plot CCI ####
 # Select locations for plot
 selected_locations <- c("USA")
@@ -50,4 +55,6 @@ consumer_confidence_index %>%
                                    size = 7))
 
 #### Save image ####
-ggsave("figures/consumer-confidence-index.png", width = 8.5, height = 7)
+ggsave("figures/consumer-confidence-index.png",
+       width = 8.5,
+       height = 7)
