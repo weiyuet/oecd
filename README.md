@@ -4,7 +4,7 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2023-07-08
+Updated: 2023-11-05
 
 ### Road Accidents
 ![](https://github.com/weiyuet/oecd/blob/main/figures/road-accidents.png)
@@ -49,5 +49,10 @@ Meat consumption is related to living standards, diet, livestock production and 
 ![](https://github.com/weiyuet/oecd/blob/main/figures/consumer-confidence-index.png)
 
 The consumer confidence indicator provides an indication of future developments of households’ consumption and saving, based upon answers regarding their expected financial situation, their sentiment about the general economic situation, unemployment and capability of savings. An indicator above 100 signals a boost in the consumers’ confidence towards the future economic situation, as a consequence of which they are less prone to save, and more inclined to spend money on major purchases in the next 12 months. Values below 100 indicate a pessimistic attitude towards future developments in the economy, possibly resulting in a tendency to save more and consume less. [`OECD`](https://data.oecd.org/leadind/consumer-confidence-index-cci.htm)
+
+### Mobile Broadband Subscriptions
+![](https://github.com/weiyuet/oecd/blob/main/figures/mobile-broadband-subscriptions.png)
+
+Mobile broadband subscriptions are mobile subscriptions that advertise data speeds of 256 kbit/s or greater. The subscription must allow access to the Internet via HTTP and must have been used to make a data connection via Internet Protocol (IP) in the previous three months. Standard SMS and MMS messaging do not count as an active Internet data connection even if they are delivered via IP. [`OECD`](https://data.oecd.org/broadband/mobile-broadband-subscriptions.htm)
 
 EOL
