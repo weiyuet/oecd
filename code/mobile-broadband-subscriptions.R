@@ -44,7 +44,7 @@ mobile_broadband_subscriptions %>%
   geom_line() +
   scale_x_continuous(labels = label_number(big.mark = "",
                                            accuracy = 1)) +
-  scale_colour_brewer() +
+  scale_colour_brewer(palette = "Paired") +
   labs(x = NULL,
        y = NULL,
        colour = NULL,
