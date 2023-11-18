@@ -4,12 +4,17 @@ Wong Wei Yuet 2022-10-17
 
   - EDA of data sets from [`OECD`](https://data.oecd.org/)
 
-Updated: 2023-11-12
+Updated: 2023-11-18
 
 ### Road Accidents
 ![](https://github.com/weiyuet/oecd/blob/main/figures/road-accidents.png)
 
 Road accidents are measured in terms of the number of persons injured and deaths due to road accidents, whether immediate or within 30 days of the accident, and excluding suicides involving the use of road motor vehicles. A road motor vehicle includes buses, coaches, trolleys, tramways (streetcars) and road vehicles used to transport goods and to transport passengers. Road motor vehicles are attributed to the countries where they are registered, while deaths are attributed to the countries in which they occur. [`OECD`](https://data.oecd.org/transport/road-accidents.htm)
+
+### Passenger Car Registrations
+![](https://github.com/weiyuet/oecd/blob/main/figures/passenger-car-registrations.png)
+
+Passenger car registrations refer to the number of newly (first-time) registered passenger cars (private cars) or vehicles (commercial cars) registered to the authorities. Data are sourced via the European Automobile Manufacturer's Association (ACEA) and measured in number of units. Data are measured as an index with the base year 2015. [`OECD`](https://data.oecd.org/transport/passenger-car-registrations.htm)
 
 ### Healthcare Expenditures
 ![](https://github.com/weiyuet/oecd/blob/main/figures/healthcare-expenditures.png)
